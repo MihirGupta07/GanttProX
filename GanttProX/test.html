@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<!-- Add your custom HEAD content here -->
+		
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		
+		<!-- Initialize Firebase -->
+		<script src="viewP.js" defer></script>
+		
+		<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+		
+
+		
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+			  apiKey: "AIzaSyD4eqqvezYry7AWOOcZnhaVu-a2CEIQv6k",
+			  authDomain: "softwareproject-b087f.firebaseapp.com",
+			  projectId: "softwareproject-b087f",
+			  storageBucket: "softwareproject-b087f.appspot.com",
+			  messagingSenderId: "640537514653",
+			  appId: "1:640537514653:web:926151aecb70903dbffa74"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			const db = firebase.firestore();
+			db.settings({timestampsInSnapshots:true});
+		  </script>
+		
+	</head>
+
+<body>
+    <div id="chartgoeshere"></div>
+</body>
+</html>
